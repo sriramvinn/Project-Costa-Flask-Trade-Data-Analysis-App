@@ -1,0 +1,106 @@
+/* Reset default styles */
+body, form {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Page layout */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+body {
+  background-image: url("/static/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Change background color */
+.select2-container .select2-selection {
+    background-color: #a62d2d !important;
+}
+
+/* Change font shape and size */
+.select2-container .select2-selection {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+/* Change background color of the dropdown list */
+.select2-container .select2-results__options {
+    background-color: #a62d2d;
+}
+
+.select2-container .select2-search__field {
+    background-color: #a62d2d;
+}
+
+/* Change hover color of options in the dropdown */
+.select2-results__option--highlighted {
+    background-color: #630909;
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+p {
+  color: #a62d2d;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label styles */
+label {
+  color: #ffffff; /* Blue color */
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+input[type="date"],
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #630909;
+  border-radius: 4px;
+  background-color: #a62d2d;
+  color: #000000;
+
+}
+
+input[type="submit"] {
+  padding: 10px;
+  background-color: #a62d2d;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #630909;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.result p {
+  margin-bottom: 10px;
+}
